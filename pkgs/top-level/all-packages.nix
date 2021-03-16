@@ -6010,6 +6010,8 @@ in
     inherit (darwin.apple_sdk.frameworks) Security;
   };
 
+  kalk = libsForQt5.callPackage ../applications/science/math/kalk { };
+
   kbdd = callPackage ../applications/window-managers/kbdd { };
 
   kbs2 = callPackage ../tools/security/kbs2 {
