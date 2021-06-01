@@ -24627,6 +24627,8 @@ in
 
   kile = libsForQt5.callPackage ../applications/editors/kile { };
 
+  kirigami-addons = libsForQt5.callPackage ../development/libraries/kirigami-addons { };
+
   kitsas = libsForQt5.callPackage ../applications/office/kitsas { };
 
   kiwix = libsForQt5.callPackage ../applications/misc/kiwix { };
